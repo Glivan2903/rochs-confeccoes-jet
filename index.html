@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="styles.css">
     <!-- Load FontAwesome as async/defer pattern for CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
+    <link rel="icon" type="image/png" href="assets/logo.png">
     <noscript>
         <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -26,14 +27,21 @@
     <!-- Navbar -->
     <nav class="navbar">
         <div class="container nav-content">
-            <h1 class="logo">ROCH'S</h1>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/logo.png" alt="Roch's Logo" class="nav-logo">
+                </a>
+            </div>
             <button class="mobile-menu-btn" aria-label="Abrir menu">
                 <i class="fas fa-bars"></i>
             </button>
             <ul class="nav-links">
-                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#sobre">Fábrica</a></li>
                 <li><a href="#produtos">Produtos</a></li>
-                <li><a href="https://wa.me/554491519654?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20como%20funciona%20comprar%20com%20voc%C3%AAs%20no%20atacado%20e%20varejo.." target="_blank" class="btn-primary">Fale Conosco</a></li>
+                <li><a href="#tecidos">Tecidos</a></li>
+                <li><a href="#grade">Como Comprar</a></li>
+                <li><a href="#trocas">Trocas</a></li>
+                <li><a href="https://wa.me/554491519654?text=Ol%C3%A1%2C%20gostaria%20de%20ver%20o%20cat%C3%A1logo%20e%20saber%20mais%20sobre%20as%20pe%C3%A7as%20premium." target="_blank" class="btn-primary">Catálogo</a></li>
             </ul>
         </div>
     </nav>
@@ -42,10 +50,10 @@
     <section class="hero">
         <div class="hero-overlay"></div>
         <div class="container hero-content">
-            <h2 class="hero-title">Moda Social e Casual <span>Premium</span></h2>
-            <p class="hero-subtitle">Atacado e Varejo. Vestindo você com elegância e qualidade superior.</p>
-            <a href="https://wa.me/554491519654?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20como%20funciona%20comprar%20com%20voc%C3%AAs%20no%20atacado%20e%20varejo.." target="_blank" class="btn-large pulse-animation">
-                <i class="fab fa-whatsapp"></i> Comprar pelo WhatsApp
+            <h2 class="hero-title">ROUPAS LINHA <span>PREMIUM</span> NO ATACADO E VAREJO</h2>
+            <p class="hero-subtitle">Direto da Fábrica. Camisas Sociais, Gola Polo e T-Shirt 40.1 com o melhor custo-benefício do Brasil.</p>
+            <a href="https://wa.me/554491519654?text=Ol%C3%A1%2C%20gostaria%20de%20ver%20o%20cat%C3%A1logo%20e%20saber%20mais%20sobre%20as%20pe%C3%A7as%20premium." target="_blank" class="btn-large pulse-animation">
+                <i class="fab fa-whatsapp"></i> Ver Catálogo no WhatsApp
             </a>
         </div>
     </section>
@@ -54,23 +62,25 @@
     <section id="sobre" class="section about">
         <div class="container about-grid reveal">
             <div class="about-text">
-                <h3 class="section-title">Nossa Tradição</h3>
-                <p>Somos uma Confecção de moda social e casual Linha Premium dedicada a oferecer a melhor experiência em vestuário.</p>
+                <h3 class="section-title">Direto da Fábrica</h3>
+                <p>O que os melhores fornecedores, lojistas e clientes fazem para aumentar a margem de lucro? Compram direto da fonte. Aqui na <strong>ROCH'S</strong>, produzimos camisas sociais, gola polo e camisetas 40.1 com foco total em qualidade e padronização.</p>
+                <p>Trabalhamos exclusivamente com <strong>TECIDOS E MALHAS NOBRES</strong> produzidas pelas duas maiores indústrias têxteis do Brasil: <strong>RENAUXVIEW</strong> e <strong>CATAGUASES</strong>.</p>
+                <p>Chega de prazos incertos e qualidade irregular. Oferecemos produção padronizada, rigoroso controle de qualidade e suporte ágil.</p>
                 <div class="stats">
                     <div class="stat-item">
-                        <span class="stat-num">+30</span>
-                        <span class="stat-label">Anos no Mercado</span>
+                        <span class="stat-num">Premium</span>
+                        <span class="stat-label">Qualidade Garantida</span>
                     </div>
                     <div class="stat-item">
-                        <span class="stat-num">+8</span>
-                        <span class="stat-label">Anos na Internet</span>
+                        <span class="stat-num">Agilidade</span>
+                        <span class="stat-label">Suporte e Envio</span>
                     </div>
                 </div>
             </div>
             <div class="about-image-placeholder reveal">
                 <div class="placeholder-box">
-                    <i class="fas fa-cut"></i>
-                    <span>Alfaiataria Premium</span>
+                    <i class="fas fa-industry"></i>
+                    <span>Produção Industrial Própria</span>
                 </div>
             </div>
         </div>
@@ -86,18 +96,203 @@
                 <div class="product-card">
                     <i class="fas fa-user-tie product-icon"></i>
                     <h4>Camisas Sociais</h4>
+                    <p>Modelagem impecável em Tricoline, Oxford e Cambraia de Linho.</p>
                 </div>
                 <div class="product-card">
                     <i class="fas fa-tshirt product-icon"></i>
                     <h4>Camisas Gola Polo</h4>
+                    <p>Piquet Duplo 100% Algodão. Conforto e durabilidade premium.</p>
                 </div>
                 <div class="product-card">
                     <i class="fas fa-running product-icon"></i>
                     <h4>Camisetas 40.1</h4>
+                    <p>Malha 40.1 com elastano. O toque macio que você procura.</p>
                 </div>
                 <div class="product-card">
-                    <i class="fas fa-socks product-icon"></i>
-                    <h4>Calças e Bermudas</h4>
+                    <i class="fas fa-truck-loading product-icon"></i>
+                    <h4>Pronta Entrega</h4>
+                    <p>Enviamos para todo o Brasil com agilidade e segurança.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tecidos Section -->
+    <section id="tecidos" class="section fabrics reveal">
+        <div class="container">
+            <h3 class="section-title text-center">Tecidos e Malhas Nobres</h3>
+            <p class="section-subtitle text-center">Conheça a tecnologia por trás de nossas peças Premium.</p>
+            
+            <div class="fabrics-grid">
+                <div class="fabric-item">
+                    <h4>Camisaria Social</h4>
+                    <div class="fabric-info">
+                        <h5>Tricoline</h5>
+                        <p>Leveza, resistência e conforto. Produzido com fios selecionados para um toque macio e acabamento refinado.</p>
+                        <h5>Oxford</h5>
+                        <p>Elegância e durabilidade. Trama diferenciada que garante ótimo caimento e resistência para o dia a dia.</p>
+                        <h5>Cambraia de Linho</h5>
+                        <p>Fino e sofisticado. Fibra natural com alta respirabilidade, ideal para dias quentes com elegância.</p>
+                        <h5>Fio Tinto 50 e 60</h5>
+                        <p>Cores vivas que não desbotam. Fios tingidos antes da tecelagem para um padrão superior de sofisticação.</p>
+                    </div>
+                </div>
+                <div class="fabric-item">
+                    <h4>Polos e T-Shirts</h4>
+                    <div class="fabric-info">
+                        <h5>Piquet Duplo (Polos)</h5>
+                        <p>100% Algodão. Malha encorpada com textura em relevo, garantindo durabilidade e conforto térmico.</p>
+                        <h5>Malha 40.1 (T-Shirts)</h5>
+                        <p>97% Algodão e 3% Elastano. Fio fino para um acabamento leve, macio e que não deforma.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center" style="margin-top: 3rem;">
+                <a href="https://wa.me/554491519654?text=Ol%C3%A1%2C%20gostaria%20de%20ver%20o%20cat%C3%A1logo%20de%20tecidos%20e%20modelos." target="_blank" class="btn-primary">Acessar Catálogo Completo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Grade Section -->
+    <section id="grade" class="section grade bg-light reveal">
+        <div class="container">
+            <h3 class="section-title text-center">Como Comprar</h3>
+            <p class="section-subtitle text-center">Entenda nossas opções de Grade Aberta e Grade Fechada.</p>
+            
+            <div class="grade-grid">
+                <div class="grade-card">
+                    <div class="grade-header">
+                        <i class="fas fa-unlock"></i>
+                        <h4>1 - GRADE ABERTA</h4>
+                    </div>
+                    <p><strong>TOTAL LIBERDADE:</strong> Escolha modelos, cores, tamanhos e marcas diferentes.</p>
+                    <ul>
+                        <li>Monte o pedido do seu jeito</li>
+                        <li>Ideal para varejo e experimentação</li>
+                        <li><strong>A partir de 1 peça</strong></li>
+                    </ul>
+                </div>
+                <div class="grade-card">
+                    <div class="grade-header">
+                        <i class="fas fa-lock"></i>
+                        <h4>2 - GRADE FECHADA</h4>
+                    </div>
+                    <p><strong>FORMATO PACK:</strong> Peças do mesmo modelo, cor e marca. Ideal para lojistas.</p>
+                    <div class="size-specs">
+                        <p><strong>Camisas Sociais:</strong> 1P / 2M / 3G / 2GG / 1G1</p>
+                        <p><strong>Polo e T-Shirt:</strong> 1P / 2M / 2G / 2GG / 1G1</p>
+                    </div>
+                    <p><small>*Não é possível alterar tamanhos ou cores no kit fechado.</small></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Logística Section -->
+    <section id="logistica" class="section logistics reveal">
+        <div class="container text-center">
+            <h3 class="section-title">Logística e Envios</h3>
+            <p class="section-subtitle">Enviamos com segurança para todo o território brasileiro.</p>
+            
+            <div class="logistics-grid">
+                <div class="log-item">
+                    <i class="fas fa-envelope-open-text"></i>
+                    <h4>Correios</h4>
+                    <p>PAC e SEDEX para todo Brasil.</p>
+                </div>
+                <div class="log-item">
+                    <i class="fas fa-plane-departure"></i>
+                    <h4>Azul Cargo</h4>
+                    <p>Transporte aéreo ágil.</p>
+                </div>
+                <div class="log-item">
+                    <i class="fas fa-truck"></i>
+                    <h4>Transportadoras</h4>
+                    <p>Conforme sua cidade (Grade Fechada).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trocas Section -->
+    <section id="trocas" class="section trocas bg-light reveal">
+        <div class="container">
+            <h3 class="section-title text-center">Política de Trocas</h3>
+            <div class="policy-content">
+                <p>Nossa política segue o Código de Defesa do Consumidor para garantir uma negociação justa e ética.</p>
+                
+                <div class="policy-grid">
+                    <div class="policy-box">
+                        <h5>Regras Gerais</h5>
+                        <ul>
+                            <li>Somente com etiqueta e embalagem original.</li>
+                            <li>Acompanhado da 1ª via da Nota Fiscal.</li>
+                            <li>Custos de frete por conta do cliente (exceto defeito/erro).</li>
+                        </ul>
+                    </div>
+                    <div class="policy-box">
+                        <h5>Prazos e Tipos</h5>
+                        <ul>
+                            <li><strong>Defeito/Erro:</strong> Entre em contato no ato da verificação (foto/vídeo).</li>
+                            <li><strong>Tamanho/Cor:</strong> Até 7 dias úteis após o recebimento.</li>
+                            <li><strong>Opções:</strong> Crédito, Troca por produto ou Reembolso.</li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="text-center" style="margin-top: 2rem;">
+                    <a href="trocas.html" class="btn-primary" style="background: transparent; color: var(--primary-color);">Visualizar Política Completa</a>
+                </p>
+                <p class="text-center" style="margin-top: 1rem;"><small>Reservamos o direito de recusar a devolução caso os padrões não sejam seguidos.</small></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos Section -->
+    <section id="depoimentos" class="section testimonials reveal">
+        <div class="container">
+            <h3 class="section-title text-center">O que dizem nossos parceiros</h3>
+            <p class="section-subtitle text-center">Confiança e qualidade que atravessam fronteiras.</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"A qualidade do Tricoline e do Fio Tinto da Roch's é imbatível. Meus clientes de moda executiva notam a diferença no toque e no caimento na hora."</p>
+                    <div class="customer-info">
+                        <img src="assets/customer1.png" alt="Eduardo S.">
+                        <div>
+                            <h5>Eduardo S.</h5>
+                            <span>Lojista Premium - SP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Trabalho com revenda há 10 anos e nunca encontrei uma gola polo tão resistente. O Piquet Duplo deles mantém a estrutura mesmo após várias lavagens."</p>
+                    <div class="customer-info">
+                        <img src="assets/customer2.png" alt="Marcos R.">
+                        <div>
+                            <h5>Marcos R.</h5>
+                            <span>Distribuidor - MG</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"O suporte é excelente e o envio pela Azul Cargo chega muito rápido. A margem de lucro com os produtos direto de fábrica salvou meu semestre."</p>
+                    <div class="customer-info">
+                        <img src="assets/customer3.png" alt="Ricardo T.">
+                        <div>
+                            <h5>Ricardo T.</h5>
+                            <span>Empreendedor - PR</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -125,11 +320,20 @@
     <!-- Footer - META COMPLIANT -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-legal">
-                <p>&copy; 2026 Roch's Confecções. Todos os direitos reservados.</p>
-                <div class="legal-links">
-                    <a href="privacidade.html">Política de Privacidade</a>
-                    <a href="termos.html">Termos de Uso</a>
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="assets/logo-dark.png" alt="Roch's Logo" class="footer-logo">
+                    <p>Qualidade Premium, transparência e respeito ao consumidor.</p>
+                </div>
+                <div class="footer-content">
+                    <div class="footer-legal">
+                        <p>&copy; 2026 Roch's Confecções. Todos os direitos reservados.</p>
+                        <div class="legal-links">
+                            <a href="privacidade.html">Política de Privacidade</a>
+                            <a href="termos.html">Termos de Uso</a>
+                            <a href="trocas.html">Política de Troca</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="footer-security">
